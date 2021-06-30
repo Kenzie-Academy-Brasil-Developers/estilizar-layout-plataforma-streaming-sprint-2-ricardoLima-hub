@@ -20,14 +20,30 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 }
 
 /*BODY*/
-	body{
+.profiles {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+	height: 30vh;
+    gap: 5px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
 
-	}
+.profiles__figures img {
+	width: 100px;
+}
+
+.hidden {
+	display: none;
+}
 
 /*TOPO*/
-	header.topo{
-		
-	}
+header.topo{
+	width: 150px;
+	margin: 10px 0 0 50px;
+}
 
 /*RODAPÉ*/
 	
